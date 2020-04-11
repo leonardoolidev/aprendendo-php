@@ -6,3 +6,5 @@ CREATE TABLE `usuarios` (
   `email` varchar(128) DEFAULT NULL,
   PRIMARY KEY (`id`)
 ) ENGINE=InnoDB AUTO_INCREMENT=3 DEFAULT CHARSET=latin1;
+
+SELECT * FROM usuarios;
